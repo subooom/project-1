@@ -1,0 +1,13 @@
+#eye-icon>img{
+  display: block;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+#eye-icon:hover>span{
+  opacity: 0;
+  transition: opacity .7s ease;
+}
+#eye-icon:hover>img{
+  transition: opacity 1s ease;
+  opacity: 1;
+}
